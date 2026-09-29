@@ -164,7 +164,7 @@ barplot(bias, col = c("red","black"),ylim= c(0,0.5),beside = TRUE, xlab = "Scena
 legend("topleft", c("a) Domain 2"), cex = 1, text.font=2.5)
 legend("topright", c("GFS","ERA5"), cex = 1, fill = c("red","black"))
 
-;;; Bias raster for GFS - ERA5 datasets;;;
+# Bias raster for GFS - ERA5 datasets;;;
 
 library(dplyr)
 library(lubridate)
@@ -218,7 +218,7 @@ axis(side=2, seq(1, 24, by = 1), labels=elabels, las=1, cex.axis=0.9, tck = 0)
 
 axis(side=1, seq(0, 72, by = 12), las=1, cex.axis=1, label=hours, tck = 0)
 
-;;; Bias raster for SST;;;
+# Bias raster for SST;;;
 
 library(dplyr)
 library(lubridate)
